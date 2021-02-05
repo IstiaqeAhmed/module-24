@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>JSON</h1>
+    <h2>Javascript Object Notation</h2>
+    <script>
+        const user = {
+            id: 233, name: "khalianam",
+            lover: {
+                name: "jamila",
+                favFood: "pizza"
+
+            },
+            friendsAge: [12, 45, 35],
+            friends: ["Kamal", "Jamal", "gulum"]
+        };
+        // {"id":233,"name":"khalianam"}
+        const userJSON = JSON.stringify(user);
+        // server a data pathate hole string hishebe pathate hoy tokhon stringify er maddome data ke string hishebe convert kora jai
+        console.log(userJSON);
+        const userFromJSON = JSON.parse(userJSON); //server theke data asle string hishebe ase tokhon parse kore data convert kora jai
+        console.log(userFromJSON);
+    </script>
+</body>
+
+</html>
