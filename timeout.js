@@ -10,3 +10,4 @@ setInterval(function(){
 },3000)
 setTimeout(doSomething, 40000)
 console.log(44444);
+//SetTimeout Works in an asynchronous way
