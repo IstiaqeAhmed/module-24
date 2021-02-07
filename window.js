@@ -13,4 +13,5 @@ var sum = add(13, 21);
 console.log(sum);
 console.log('result outside', result);
 // window = running environment
+// The javascript variable window is an object representing a window containing a DOM Document.
 // Global variable = function er bahir theke declare kora
