@@ -46,3 +46,4 @@ const friendlyPerson = {
 normalPerson.chargeBill.apply(heroPerson, [3000, 300, 30]);
 normalPerson.chargeBill.apply(heroPerson,[4000, 400, 40])
 console.log(heroPerson.salary);
+console.log(bitkalPerson);
