@@ -12,5 +12,5 @@ const friendlyPerson = new Person('Hero', 'takim', 20049)
 console.log(friendlyPerson);
 
 // same type er onekgulo object jodi thake tokhon class er bitor theke object gula ke banano jai
-// class theke object banate hole new keyword use kora hoy. jate shobgula object er behavior same thake
+// class theke object banate hole 'new' keyword use kora hoy. jate shobgula object er behavior same thake
 // prototypical inheritance ki? search in google
